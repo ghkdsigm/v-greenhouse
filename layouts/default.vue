@@ -1,6 +1,7 @@
 <!-- eslint-disable prettier/prettier -->
 <template>
 	<div>
+		<LayoutHeader />
 		<LayoutAppHeader :menuitems="menuitems" />
 		<!--메인섹션-->
 		<div class="relative py-6 sm:py-10">
@@ -17,11 +18,11 @@ export default {
 	name: 'DefaultLayout',
 	data: () => ({
 		menuitems: [
-			{title: '내차 찾기', to: '/ui'},
-			{title: '전기차', to: ''},
-			{title: '신차급', to: ''},
+			{title: 'ABOUT', to: '/ui'},
+			{title: 'PRODUCTS', to: ''},
+			{title: 'NEWS & RESOURCES', to: ''},
 			{
-				title: '매매가이드',
+				title: 'CAREER',
 				to: '/guide/checklist',
 				subMenu: [
 					{title: '체크리스트', to: '/guide/checklist'},
@@ -30,7 +31,7 @@ export default {
 				],
 			},
 			{
-				title: '단지안내',
+				title: 'CONTACT',
 				to: '/information/company',
 				subMenu: [
 					{title: '단지소개', to: '/information/company'},

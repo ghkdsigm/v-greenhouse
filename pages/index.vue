@@ -126,6 +126,51 @@
 					<h2 class="text-2xl font-bold text-gray-900">Process</h2>
 
 					<div
+						class="mt-6 space-y-12 lg:grid lg:grid-cols-4 lg:gap-x-6 lg:gap-y-12 lg:space-y-0"
+					>
+						<div class="group relative">
+							<div class="relative w-full rounded-lg bg-white">
+								<CommonCard01 />
+							</div>
+						</div>
+						<div class="group relative">
+							<div class="relative w-full rounded-lg bg-white">
+								<CommonCard01 />
+							</div>
+						</div>
+						<div class="group relative">
+							<div class="relative w-full rounded-lg bg-white">
+								<CommonCard01 />
+							</div>
+						</div>
+						<div class="group relative">
+							<div class="relative w-full rounded-lg bg-white">
+								<CommonCard01 />
+							</div>
+						</div>
+						<div class="group relative">
+							<div class="relative w-full rounded-lg bg-white">
+								<CommonCard01 />
+							</div>
+						</div>
+						<div class="group relative">
+							<div class="relative w-full rounded-lg bg-white">
+								<CommonCard01 />
+							</div>
+						</div>
+						<div class="group relative">
+							<div class="relative w-full rounded-lg bg-white">
+								<CommonCard01 />
+							</div>
+						</div>
+						<div class="group relative">
+							<div class="relative w-full rounded-lg bg-white">
+								<CommonCard01 />
+							</div>
+						</div>
+					</div>
+
+					<!-- <div
 						class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0"
 					>
 						<div class="group relative">
@@ -190,7 +235,7 @@
 								Daily commute essentials
 							</p>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
